@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     let numberOfQuestions = QuestionBank.init().list.count
     var currentQuestion = 0
     var pickedAnswer = false
-    var trueEmoji = "👍 Yes this is Correct!\n\r"
+    var trueEmoji = "👍 Correct!\n\r"
     var falseEmoji = "👎 Wrong - The Correct Answer is:\n\r"
     
     @IBOutlet weak var questionLabel: UILabel!
